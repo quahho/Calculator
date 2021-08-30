@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div id="main-container">
+            <header>
+                <h1>Calculator</h1>
+            </header>
+            <main>
+                <div id="frame">
+                    <div id="output">
+                        <div id="top-half"></div>
+                        <div id="bottom-half"></div>
+                    </div>
+                    <div id="input">
+                        <div class="common">
+                            <button id="clear" class="buttons">AC</button>
+                            <button id="delete" class="buttons">
+                                <i class="material-icons">backspace</i>
+                            </button>
+                            <button id="over" value="/" class="buttons operator">&#xf7;</button>
+                        </div>
+                        <div class="common">
+                            <button id="seven" class="buttons number">7</button>
+                            <button id="eight" class="buttons number">8</button>
+                            <button id="nine" class="buttons number">9</button>
+                            <button id="times" value="*" class="buttons operator">&#xd7;</button>
+                        </div>
+                        <div class="common">
+                            <button id="four" class="buttons number">4</button>
+                            <button id="five" class="buttons number">5</button>
+                            <button id="six" class="buttons number">6</button>
+                            <button id="minus" value="-" class="buttons operator">&#x2212;</button>
+                        </div>
+                        <div class="common">
+                            <button id="one" class="buttons number">1</button>
+                            <button id="two" class="buttons number">2</button>
+                            <button id="three" class="buttons number">3</button>
+                            <button id="plus" value="+" class="buttons operator">&#x2b;</button>
+                        </div>
+                        <div class="common">
+                            <button id="point" class="buttons number">.</button>
+                            <button id="zero" class="buttons number">0</button>
+                            <button id="equal" class="buttons">&#x3d;</button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
